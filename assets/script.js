@@ -20,10 +20,10 @@ function setColor() {
 }
     
 setColor();
-//execute setColor every 10 minutes to keep up to date  
+//execute setColor every minute to keep up to date  
 setInterval(function () {
     setColor();
-}, 600000);
+}, 60000);
 
 //set events in local storage  
 $(".saveBtn").click(function() {
